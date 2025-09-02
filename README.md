@@ -12,18 +12,21 @@ This project is a **lightweight PHP-based email reminder and subscription platfo
 
 ## 📂 Project Structure
 
-.
-├── cron.php # Cron job setup script
-├── functions.php # Core helper functions
-├── index.php # Main subscription form
-├── send_reminders.php # Script to send email reminders
-├── setup_cron.sh # Shell script to configure the cron job
-├── style.css # Frontend styling
-├── subscribe.php # Handle subscriptions
-├── unsubscribe.php # Handle unsubscriptions
-├── utils.php # Utility functions
-├── verify.php # Email verification handler
-
+├── README.md
+└── src
+    ├── cron.php
+    ├── functions.php
+    ├── index.php
+    ├── pending_subscriptions.txt
+    ├── send_reminders.php
+    ├── setup_cron.sh
+    ├── style.css
+    ├── subscribe.php
+    ├── subscribers.txt
+    ├── tasks.txt
+    ├── unsubscribe.php
+    ├── utils.php
+    └── verify.php
 markdown
 Copy
 Edit
